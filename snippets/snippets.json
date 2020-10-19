@@ -1,0 +1,10 @@
+{
+    "mol from smiles": {
+        "prefix": "std:mol",
+        "description": "get mol from smiles",
+        "body": [
+            "from rdkit import Chem",
+            "mol = Chem.MolFromSmiles('${1:smiles}')"
+        ]
+    }
+}
