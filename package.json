@@ -1,0 +1,31 @@
+{
+    "name": "ml-lifesci",
+    "displayName": "Python Snippets For Life Science ML",
+    "description": "Data Science Snippets for Python",
+    "publisher": "Luca Naef",
+    "icon": "icon.png",
+    "author": {
+        "name": "Luca Naef"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/naefl/snippets"
+    },
+    "version": "0.0.6",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets",
+        "Data Science",
+        "Machine Learning"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
